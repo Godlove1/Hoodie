@@ -226,3 +226,20 @@ margin: 60px 130px 0 0;
 }
 	}
 }
+.note{
+	display: none;
+}
+@media (max-width:800px){
+	main{
+		display: none;
+	}
+	.note{
+		width: 100%;
+		font-size: 2em;
+		text-transform: capitalize;
+		height: 100%;
+		display: block;
+		display: grid;
+		place-items: center;
+	}
+}
